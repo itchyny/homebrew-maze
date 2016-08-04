@@ -2,7 +2,7 @@ class Maze < Formula
   homepage 'https://github.com/itchyny/maze'
   version '0.0.0'
 
-  if Hardware.is_64_bit?
+  if Hardware::CPU.is_64_bit?
     url 'https://github.com/itchyny/maze/releases/download/v0.0.0/maze_darwin_amd64.zip'
     sha256 '857c560b24380060f2674472c6d9a47d8fc75c59cf334c440a7797e1c69ef88c'
   else
