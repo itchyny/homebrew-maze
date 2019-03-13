@@ -1,13 +1,13 @@
 class Maze < Formula
   homepage 'https://github.com/itchyny/maze'
-  version '0.0.2'
+  version '0.0.3'
 
   if Hardware::CPU.is_64_bit?
-    url 'https://github.com/itchyny/maze/releases/download/v0.0.2/maze_darwin_amd64.zip'
-    sha256 '2205832985be101669ec6e8a8ac0aea1cdde5908fa7365e5c7f1a070c683b1f9'
+    url 'https://github.com/itchyny/maze/releases/download/v0.0.3/maze_darwin_amd64.zip'
+    sha256 'cc952a9045796acda4234d12e5289bffd77299b151c69af2b5c95660965a328a'
   else
-    url 'https://github.com/itchyny/maze/releases/download/v0.0.2/maze_darwin_386.zip'
-    sha256 '3645d4960f36a446d1c9cc4c4f0599e65487a8f79b0982998752bc20f29363e3'
+    url 'https://github.com/itchyny/maze/releases/download/v0.0.3/maze_darwin_386.zip'
+    sha256 '6977a603659bfd5b1a9dbcc0ce6efb8bf56b46c9fa9d342c8a8763d65ffcd4c3'
   end
 
   head do
